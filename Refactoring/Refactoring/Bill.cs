@@ -36,46 +36,6 @@
                 "\t" + bonus.ToString() + "\n";
         }
 
-        public int GetBonus(Item each)
-        {
-            int bonus = 0;
-            switch (each.getGoods().getPriceCode())
-            {
-                case Goods.REGULAR:
-                    bonus = (int)(GetSum(each) * 0.05);
-                    break;
-                case Goods.SALE:
-                    bonus =  (int)(GetSum(each) * 0.01);
-                    break;
-                default:
-                    bonus = 0;
-                    break;
-            }
-            return bonus;
-        }
-
-        public double GetDiscount(Item each)
-        {
-            double discount = 0;
-            switch (each.getGoods().getPriceCode())
-            {
-                case Goods.REGULAR:
-                    if (each.getQuantity() > 2)
-                        discount = GetSum(each) * 0.03; // 3%
-                    break;
-                case Goods.SPECIAL_OFFER:                    
-                    if (each.getQuantity() > 10)
-                        discount = GetSum(each) * 0.005; // 0.5%
-                    break;
-                case Goods.SALE:
-                    if (each.getQuantity() > 3)
-                        discount = GetSum(each) * 0.01; // 0.1%
-                    break;
-            }            
-
-            return discount;
-        }
-
         public int GetUsedBonus(Item each, double thisAmount)
         {
             int usedBonus = 0;
@@ -112,8 +72,8 @@
                 Item each = (Item)items.Current;
 
                 //определить сумму для каждой строки
-                int bonus = GetBonus(each);
-                double discount = GetDiscount(each);
+                int bonus = each.GetBonus();
+                double discount = each.GetDiscount();
 
                 // сумма
                 double thisAmount = GetSum(each);
