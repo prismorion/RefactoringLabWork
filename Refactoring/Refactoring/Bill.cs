@@ -4,11 +4,13 @@
     {
         private List<Item> _items;
         private Customer _customer;
+
         public Bill(Customer customer)
         {
             this._customer = customer;
             this._items = new List<Item>();
         }
+
         public void addGoods(Item arg)
         {
             _items.Add(arg);
@@ -34,23 +36,6 @@
                 "\t" + GetSum(each).ToString() +
                 "\t" + discount.ToString() + "\t" + thisAmount.ToString() +
                 "\t" + bonus.ToString() + "\n";
-        }
-
-        public int GetUsedBonus(Item each, double thisAmount)
-        {
-            int usedBonus = 0;
-            switch (each.getGoods().getPriceCode())
-            {
-                case Goods.REGULAR:
-                    if (each.getQuantity() > 5)
-                        usedBonus = _customer.useBonus((int)thisAmount);
-                    break;
-                case Goods.SPECIAL_OFFER:
-                    if (each.getQuantity() > 1)
-                        usedBonus = _customer.useBonus((int)thisAmount);
-                    break;
-            }
-            return usedBonus;
         }
 
         public double GetSum(Item each)
@@ -80,7 +65,7 @@
 
                 // учитываем скидку
                 thisAmount -= discount;
-                int usedBonus = GetUsedBonus(each, thisAmount);
+                int usedBonus = each.GetUsedBonus(_customer, thisAmount);
                 thisAmount -= usedBonus;
 
                 //показать результаты

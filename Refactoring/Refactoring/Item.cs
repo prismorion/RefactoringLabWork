@@ -44,5 +44,10 @@
         {
             return _Goods.GetDiscount(_quantity, _price);
         }
+
+        public int GetUsedBonus(Customer _customer, double thisAmount)
+        {
+            return _Goods.GetUsedBonus(_customer, _quantity, thisAmount);
+        }
     }
 }
