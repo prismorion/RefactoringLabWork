@@ -1,0 +1,14 @@
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\bin\Debug\net8.0\Refactoring.exe
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\bin\Debug\net8.0\Refactoring.deps.json
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\bin\Debug\net8.0\Refactoring.runtimeconfig.json
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\bin\Debug\net8.0\Refactoring.dll
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\bin\Debug\net8.0\Refactoring.pdb
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\obj\Debug\net8.0\Refactoring.GeneratedMSBuildEditorConfig.editorconfig
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\obj\Debug\net8.0\Refactoring.AssemblyInfoInputs.cache
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\obj\Debug\net8.0\Refactoring.AssemblyInfo.cs
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\obj\Debug\net8.0\Refactoring.csproj.CoreCompileInputs.cache
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\obj\Debug\net8.0\Refactoring.dll
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\obj\Debug\net8.0\refint\Refactoring.dll
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\obj\Debug\net8.0\Refactoring.pdb
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\obj\Debug\net8.0\Refactoring.genruntimeconfig.cache
+D:\КубГТУ\Рефакторинг\Refactoring\Refactoring\obj\Debug\net8.0\ref\Refactoring.dll
