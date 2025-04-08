@@ -18,8 +18,8 @@
             result = line.Split(':');
             int bonus = Convert.ToInt32(result[1].Trim());
             Customer customer = new Customer(name, bonus);
-            IView view = new TxtView();
-            Bill b = new Bill(customer, view);
+            IView view = new HtmlView();
+            BillGenerator b = new BillGenerator(customer, view);
             // read goods count
             line = sr.ReadLine();
             result = line.Split(':');

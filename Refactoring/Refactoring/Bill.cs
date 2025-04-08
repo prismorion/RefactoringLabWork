@@ -4,62 +4,43 @@
     {
         private List<Item> _items;
         private Customer _customer;
-        public IView View { get; set; }
 
-        public Bill(Customer customer, IView view)
+        public Bill(Customer customer)
         {
             _customer = customer;
             _items = new List<Item>();
-            View = view;
         }
 
-        public void addGoods(Item arg)
+        public BillSummary Process(List<Item> items)
         {
-            _items.Add(arg);
-        }        
+            BillSummary billSummary = new BillSummary();            
+            List<Item>.Enumerator _items = items.GetEnumerator();
 
-        public double GetSum(Item each)
-        {
-            double sum = each.getQuantity() * each.getPrice();
-            return sum;
-        }
+            while (_items.MoveNext())
+            {                
+                Item each = _items.Current;
+                ItemSummary itemSummary = new ItemSummary();
 
-        public string GenerateBill()
-        {
-            double totalAmount = 0;
-            int totalBonus = 0;
-            List<Item>.Enumerator items = _items.GetEnumerator();
+                itemSummary.Name = each.getGoods().getTitle();
+                itemSummary.Bonus = each.GetBonus();
+                itemSummary.Discount = (decimal)each.GetDiscount();
+                itemSummary.Price = (decimal)each.getPrice();
+                itemSummary.Quantity = each.getQuantity();
 
-            string result = View.GetHeader(_customer);
+                itemSummary.Sum = (decimal)each.GetSum();
+                itemSummary.Sum -= itemSummary.Discount;
 
-            while (items.MoveNext())
-            {
-                Item each = (Item)items.Current;
+                itemSummary.Sum -= each.GetUsedBonus(_customer, (double)itemSummary.Sum); ;
 
-                //определить сумму для каждой строки
-                int bonus = each.GetBonus();
-                double discount = each.GetDiscount();
+                billSummary.TotalAmount += itemSummary.Sum;
+                billSummary.TotalBonus += itemSummary.Bonus;
 
-                // сумма
-                double thisAmount = GetSum(each);
-
-                // учитываем скидку
-                thisAmount -= discount;
-                int usedBonus = each.GetUsedBonus(_customer, thisAmount);
-                thisAmount -= usedBonus;
-
-                //показать результаты
-                result += View.GetItemString(each, discount, thisAmount, bonus);
-                totalAmount += thisAmount;
-                totalBonus += bonus;
+                billSummary.ItemSummarys.Add(itemSummary);
             }
 
-            //добавить нижний колонтитул
-            result += View.GetFooter(totalAmount, totalBonus);
+            _customer.receiveBonus(billSummary.TotalBonus);
 
-            //Запомнить бонус клиента
-            _customer.receiveBonus(totalBonus);
-            return result;
+            return billSummary;
         }
     }
 }

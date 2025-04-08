@@ -18,16 +18,16 @@
                    "</body>\n</html>\n";
         }
 
-        public string GetItemString(Item each, double discount, double thisAmount, int bonus)
+        public string GetItemString(ItemSummary itemSummary)
         {
             return "\t\t<tr>\n" +
-                   "\t\t\t<td>" + each.getGoods().getTitle() + "</td>\n" +
-                   "\t\t\t<td>" + each.getPrice().ToString("F2") + "</td>\n" +
-                   "\t\t\t<td>" + each.getQuantity() + "</td>\n" +
-                   "\t\t\t<td>" + each.GetSum().ToString("F2") + "</td>\n" +
-                   "\t\t\t<td>" + discount.ToString("F2") + "</td>\n" +
-                   "\t\t\t<td>" + thisAmount.ToString("F2") + "</td>\n" +
-                   "\t\t\t<td>" + bonus + "</td>\n" +
+                   "\t\t\t<td>" + itemSummary.Name + "</td>\n" +
+                   "\t\t\t<td>" + itemSummary.Price.ToString("F2") + "</td>\n" +
+                   "\t\t\t<td>" + itemSummary.Quantity + "</td>\n" +
+                   "\t\t\t<td>" + ((double)itemSummary.Price * itemSummary.Quantity).ToString("F2") + "</td>\n" +
+                   "\t\t\t<td>" + itemSummary.Discount.ToString("F2") + "</td>\n" +
+                   "\t\t\t<td>" + itemSummary.Sum.ToString("F2") + "</td>\n" +
+                   "\t\t\t<td>" + itemSummary.Bonus + "</td>\n" +
                    "\t\t</tr>\n";
         }
     }

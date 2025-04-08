@@ -15,13 +15,12 @@
                 "Вы заработали " + totalBonus.ToString() + " бонусных балов";
         }
 
-        public string GetItemString(Item each, double discount, double thisAmount, int bonus)
+        public string GetItemString(ItemSummary itemSummary)
         {
-            return "\t" + each.getGoods().getTitle() + "\t" +
-                "\t" + each.getPrice() + "\t" + each.getQuantity() +
-                "\t" + each.GetSum().ToString() +
-                "\t" + discount.ToString() + "\t" + thisAmount.ToString() +
-                "\t" + bonus.ToString() + "\n";
+            return "\t" + itemSummary.Name + "\t" +
+                "\t" + itemSummary.Price + "\t" + itemSummary.Quantity +
+                "\t" + ((double)itemSummary.Price * itemSummary.Quantity) + "\t" + 
+                itemSummary.Discount + "\t" + itemSummary.Sum + "\t" + itemSummary.Bonus + "\n";
         }
     }
 }

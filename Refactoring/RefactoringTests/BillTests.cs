@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using Refactoring;
+using System.Reflection.Emit;
 
 namespace RefactoringTests
 {
@@ -12,7 +13,7 @@ namespace RefactoringTests
             // Нет товаров
             Customer customer = new Customer("Test Customer", 100);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             string GenerateBill = bill.GenerateBill();
 
@@ -25,7 +26,7 @@ namespace RefactoringTests
             // Нет скидки
             Customer customer = new Customer("Test Customer", 100);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             bill.addGoods(new Item(new RegularGoods("Regular Item"), 2, 100));
             string GenerateBill = bill.GenerateBill();
@@ -39,7 +40,7 @@ namespace RefactoringTests
             // 3% скидка
             Customer customer = new Customer("Test Customer", 100);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             bill.addGoods(new Item(new RegularGoods("Regular Item"), 3, 100));
             string GenerateBill = bill.GenerateBill();
@@ -52,7 +53,7 @@ namespace RefactoringTests
             // Учитывает бонус
             Customer customer = new Customer("Test Customer", 100);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             bill.addGoods(new Item(new RegularGoods("Regular Item"), 6, 100));
             string GenerateBill = bill.GenerateBill();
@@ -66,7 +67,7 @@ namespace RefactoringTests
             // Нет скидки
             Customer customer = new Customer("Test Customer", 100);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             bill.addGoods(new Item(new SpecialGoods("Special Item"), 10, 50));
             string GenerateBill = bill.GenerateBill();
@@ -80,7 +81,7 @@ namespace RefactoringTests
             // 0.5% скидка
             Customer customer = new Customer("Test Customer", 100);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             bill.addGoods(new Item(new SpecialGoods("Special Item"), 11, 50));
             string GenerateBill = bill.GenerateBill();
@@ -94,7 +95,7 @@ namespace RefactoringTests
             // Бонусы полностью покрывают сумму
             Customer customer = new Customer("Test Customer", 100);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             bill.addGoods(new Item(new SpecialGoods("Special Item"), 2, 50));
             string GenerateBill = bill.GenerateBill();
@@ -108,7 +109,7 @@ namespace RefactoringTests
             // Нет скидки
             Customer customer = new Customer("Test Customer", 100);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             bill.addGoods(new Item(new SaleGoods("Sale Item"), 3, 30));
             string GenerateBill = bill.GenerateBill();
@@ -122,7 +123,7 @@ namespace RefactoringTests
             // 0.1% скидка
             Customer customer = new Customer("Test Customer", 100);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             bill.addGoods(new Item(new SaleGoods("Sale Item"), 4, 30));
             string GenerateBill = bill.GenerateBill();
@@ -136,7 +137,7 @@ namespace RefactoringTests
             // Несколько товаров
             Customer customer = new Customer("Test Customer", 100);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             bill.addGoods(new Item(new RegularGoods("Regular Item"), 6, 100));
             bill.addGoods(new Item(new SpecialGoods("Special Item"), 2, 50));
@@ -152,7 +153,7 @@ namespace RefactoringTests
             // Бонусов нет, скидка не применяется
             Customer customer = new Customer("Test Customer", 0);
             IView view = new TxtView();
-            Bill bill = new Bill(customer, view);
+            BillGenerator bill = new BillGenerator(customer, view);
 
             bill.addGoods(new Item(new SpecialGoods("Special Item"), 2, 50));
             string GenerateBill = bill.GenerateBill();
