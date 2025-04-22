@@ -1,5 +1,7 @@
-﻿using NUnit.Framework;
+﻿using Microsoft.VisualStudio.TestPlatform.TestHost;
+using NUnit.Framework;
 using Refactoring;
+using System.IO;
 using System.Reflection.Emit;
 
 namespace RefactoringTests
@@ -160,5 +162,34 @@ namespace RefactoringTests
 
             Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t2\t100\t0\t100\t0\nСумма счета составляет 100\nВы заработали 0 бонусных балов"));
         }
+
+        [Test]
+        public void CreateBill_ShouldBuildCorrectBill_FromFormattedInput()
+        {
+            string input = @"
+CustomerName: Test
+CustomerBonus: 10
+GoodsTotalCount: 3
+# ID: NAME TYPE(REG/SAL/SPO)
+1: Cola REG
+2: Pepsi SAL
+3: Fanta SPO
+ItemsTotalCount: 3
+# ID: GID PRICE QTY
+1: 1 65 6
+2: 2 50 3
+3: 3 35 1";
+
+            input = input.TrimStart();
+
+            StringReader stringReader = new StringReader(input);
+            BillBuilder builder = new BillBuilder();
+            BillGenerator bill = builder.CreateBill(stringReader, new TxtView());
+
+            string billTxt = bill.GenerateBill();
+
+            Assert.That(billTxt, Is.EqualTo("Счет для Test\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tCola\t\t65\t6\t390\t11,7\t368,3\t19\n\tPepsi\t\t50\t3\t150\t0\t150\t1\n\tFanta\t\t35\t1\t35\t0\t35\t0\nСумма счета составляет 553,3\nВы заработали 20 бонусных балов"));
+        }
+
     }
 }

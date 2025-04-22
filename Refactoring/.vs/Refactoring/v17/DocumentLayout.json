@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "E:\\RefactoringLabWork\\Refactoring\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\goodsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\goodsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\billgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\billgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\billfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\billfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\itemsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\itemsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\contentfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\contentfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\billsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\billsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\billbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\billbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|e:\\refactoringlabwork\\refactoring\\refactoringtests\\billtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|solutionrelative:refactoringtests\\billtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemSummary.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\ItemSummary.cs",
-              "RelativeDocumentMoniker": "Refactoring\\ItemSummary.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\ItemSummary.cs",
-              "RelativeToolTip": "Refactoring\\ItemSummary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T11:27:12.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BillSummary.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillSummary.cs",
-              "RelativeDocumentMoniker": "Refactoring\\BillSummary.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillSummary.cs",
-              "RelativeToolTip": "Refactoring\\BillSummary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T11:27:02.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bill.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\Bill.cs",
-              "RelativeDocumentMoniker": "Refactoring\\Bill.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\Bill.cs",
-              "RelativeToolTip": "Refactoring\\Bill.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T20:13:18.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BillGenerator.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillGenerator.cs",
-              "RelativeDocumentMoniker": "Refactoring\\BillGenerator.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillGenerator.cs",
-              "RelativeToolTip": "Refactoring\\BillGenerator.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwCkAAAAAAAAAAAAAAA==",
+              "Title": "BillFactory.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillFactory.cs",
+              "RelativeDocumentMoniker": "Refactoring\\BillFactory.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillFactory.cs",
+              "RelativeToolTip": "Refactoring\\BillFactory.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T09:08:55.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BillTests.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\BillTests.cs",
-              "RelativeDocumentMoniker": "RefactoringTests\\BillTests.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\BillTests.cs",
-              "RelativeToolTip": "RefactoringTests\\BillTests.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAqwJAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:01:11.004Z",
+              "WhenOpened": "2025-04-22T08:50:37.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "BillTests.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\BillTests.cs",
+              "RelativeDocumentMoniker": "RefactoringTests\\BillTests.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\BillTests.cs",
+              "RelativeToolTip": "RefactoringTests\\BillTests.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAkwMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:12:26.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContentFile.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\ContentFile.cs",
+              "RelativeDocumentMoniker": "Refactoring\\ContentFile.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\ContentFile.cs",
+              "RelativeToolTip": "Refactoring\\ContentFile.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:05:37.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GoodsFactory.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\GoodsFactory.cs",
+              "RelativeDocumentMoniker": "Refactoring\\GoodsFactory.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\GoodsFactory.cs",
+              "RelativeToolTip": "Refactoring\\GoodsFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:04:32.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BillBuilder.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillBuilder.cs",
+              "RelativeDocumentMoniker": "Refactoring\\BillBuilder.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillBuilder.cs",
+              "RelativeToolTip": "Refactoring\\BillBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T07:43:23.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\Program.cs",
               "RelativeDocumentMoniker": "Refactoring\\Program.cs",
               "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\Program.cs",
               "RelativeToolTip": "Refactoring\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAQwBQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T06:00:37.044Z",
               "EditorCaption": ""
