@@ -1,6 +1,6 @@
 ﻿namespace Refactoring
 {
-    public class ContentFile
+    public class YamlFileSource : IFileSource
     {
         private TextReader reader;
 
@@ -61,7 +61,7 @@
             return new Item(goods[gid - 1], qty, price);
         }
 
-        private string GetNextLine()
+        public string GetNextLine()
         {
             string line;
             do

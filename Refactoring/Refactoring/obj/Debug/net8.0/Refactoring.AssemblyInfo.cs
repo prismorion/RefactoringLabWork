@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Refactoring")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7473dec0e002561f00ce2cc535e83aa720067946")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4af64fbd886ca48a8191b5c83b0d8ce2de7dfa32")]
 [assembly: System.Reflection.AssemblyProductAttribute("Refactoring")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Refactoring")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

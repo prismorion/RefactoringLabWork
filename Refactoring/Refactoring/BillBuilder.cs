@@ -2,9 +2,9 @@
 {
     public class BillBuilder
     {
-        public BillGenerator CreateBill(TextReader textReader, IView view)
+        public BillGenerator CreateBill(TextReader textReader, string fileType, IView view)
         {
-            ContentFile content = new ContentFile();
+            IFileSource content = FileSourceFactory.CreateFileSource(fileType);
             content.SetSource(textReader);
             return BillFactory.Create(content, view);
         }

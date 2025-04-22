@@ -1,0 +1,16 @@
+{
+  "Customer": {
+    "Name": "Test",
+    "Bonus": 10
+  },
+  "Goods": [
+    { "Id": 1, "Name": "Cola", "Type": "REG" },
+    { "Id": 2, "Name": "Pepsi", "Type": "SAL" },
+    { "Id": 3, "Name": "Fanta", "Type": "SPO" }
+  ],
+  "Items": [
+    { "Id": 1, "GID": 1, "Price": 65, "Qty": 6 },
+    { "Id": 2, "GID": 2, "Price": 50, "Qty": 3 },
+    { "Id": 3, "GID": 3, "Price": 35, "Qty": 1 }
+  ]
+}

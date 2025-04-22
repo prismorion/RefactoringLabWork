@@ -164,9 +164,9 @@ namespace RefactoringTests
         }
 
         [Test]
-        public void CreateBill_ShouldBuildCorrectBill_FromFormattedInput()
+        public void CreateBill_FromYamlInput_ShouldBuildCorrectBill()
         {
-            string input = @"
+            string yamlInput = @"
 CustomerName: Test
 CustomerBonus: 10
 GoodsTotalCount: 3
@@ -180,11 +180,41 @@ ItemsTotalCount: 3
 2: 2 50 3
 3: 3 35 1";
 
-            input = input.TrimStart();
+            yamlInput = yamlInput.TrimStart();
 
-            StringReader stringReader = new StringReader(input);
+            StringReader stringReader = new StringReader(yamlInput);
             BillBuilder builder = new BillBuilder();
-            BillGenerator bill = builder.CreateBill(stringReader, new TxtView());
+            BillGenerator bill = builder.CreateBill(stringReader, ".yaml", new TxtView());
+
+            string billTxt = bill.GenerateBill();
+
+            Assert.That(billTxt, Is.EqualTo("Счет для Test\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tCola\t\t65\t6\t390\t11,7\t368,3\t19\n\tPepsi\t\t50\t3\t150\t0\t150\t1\n\tFanta\t\t35\t1\t35\t0\t35\t0\nСумма счета составляет 553,3\nВы заработали 20 бонусных балов"));
+        }
+
+        [Test]
+        public void CreateBill_FromJsonInput_ShouldBuildCorrectBill()
+        {
+            string jsonInput = @"
+{
+  ""Customer"": { ""Name"": ""Test"", ""Bonus"": 10 },
+  ""Goods"": [
+    { ""Id"": 1, ""Name"": ""Cola"", ""Type"": ""REG"" },
+    { ""Id"": 2, ""Name"": ""Pepsi"", ""Type"": ""SAL"" },
+    { ""Id"": 3, ""Name"": ""Fanta"", ""Type"": ""SPO"" }
+  ],
+  ""Items"": [
+    { ""Id"": 1, ""GID"": 1, ""Price"": 65, ""Qty"": 6 },
+    { ""Id"": 2, ""GID"": 2, ""Price"": 50, ""Qty"": 3 },
+    { ""Id"": 3, ""GID"": 3, ""Price"": 35, ""Qty"": 1 }
+  ]
+}";
+
+            jsonInput = jsonInput.TrimStart();
+
+            StringReader stringReader = new StringReader(jsonInput);
+
+            BillBuilder builder = new BillBuilder();
+            BillGenerator bill = builder.CreateBill(stringReader, ".json", new TxtView());
 
             string billTxt = bill.GenerateBill();
 

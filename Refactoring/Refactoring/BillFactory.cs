@@ -2,7 +2,7 @@
 {
     public class BillFactory
     {
-        public static BillGenerator Create(ContentFile content, IView view)
+        public static BillGenerator Create(IFileSource content, IView view)
         {
             Customer customer = content.ReadCustomer();
             BillGenerator bill = new BillGenerator(customer, view);
