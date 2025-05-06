@@ -3,31 +3,24 @@
     // Класс, который представляет данные о товаре
     public class Goods
     {
-        protected String _title;
+        protected string _title;
+        protected IGoodsStrategy _strategy;
 
-        public Goods(String title)
+        public Goods(string title, IGoodsStrategy strategy)
         {
             _title = title;
+            _strategy = strategy;
         }
 
-        public String getTitle()
-        {
-            return _title;
-        }
+        public string getTitle() => _title;
 
-        public virtual int GetBonus(int _quantity, double _price)
-        {
-            return 0;
-        }
+        public virtual double GetDiscount(int quantity, double price) =>
+            _strategy.GetDiscount(quantity, price);
 
-        public virtual double GetDiscount(int _quantity, double _price)
-        {
-            return 0;
-        }
+        public virtual int GetBonus(int quantity, double price) =>
+            _strategy.GetBonus(quantity, price);
 
-        public virtual int GetUsedBonus(Customer _customer, int _quantity, double thisAmount)
-        {
-            return 0;
-        }
+        public virtual int GetUsedBonus(Customer customer, int quantity, double amount) =>
+            _strategy.GetUsedBonus(customer, quantity, amount);
     }
 }

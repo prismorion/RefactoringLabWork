@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string filename = "BillInfo.json";
+            string filename = "BillInfo.yaml";
             if (args.Length == 1)
                 filename = args[0];
             string fileType = Path.GetExtension(filename).ToLower();
@@ -13,7 +13,7 @@
             StreamReader streamReader = new StreamReader(fs);
             BillBuilder builder = new BillBuilder();
 
-            BillGenerator bill = builder.CreateBill(streamReader, fileType, new TxtView());
+            BillGenerator bill = builder.CreateBill(streamReader, fileType, new TxtViewTest());
             string billTxt = bill.GenerateBill();
             Console.WriteLine(billTxt);
         }

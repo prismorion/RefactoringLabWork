@@ -1,12 +1,28 @@
-﻿namespace Refactoring
+﻿using System.Globalization;
+
+namespace Refactoring
 {
     public class YamlFileSource : IFileSource
     {
         private TextReader reader;
+        private DateTime date;
 
         public void SetSource(TextReader reader)
         {
             this.reader = reader;
+            ReadDate();
+        }
+
+        private void ReadDate()
+        {
+            string line = GetNextLine();
+            string[] result = line.Split(':');
+            date = DateTime.ParseExact(result[1].Trim(), "dd.MM.yyyy", CultureInfo.InvariantCulture);
+        }
+
+        public DateTime GetDate()
+        {            
+            return date;
         }
 
         public Customer ReadCustomer()
@@ -38,7 +54,7 @@
             string name = data[0];
             string type = data[1];
 
-            return GoodsFactory.Create(name, type);
+            return GoodsFactory.Create(name, type, date);
         }
 
         public int ReadItemsCount()

@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "E:\\RefactoringLabWork\\Refactoring\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\jsonfilesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\jsonfilesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|e:\\refactoringlabwork\\refactoring\\refactoringtests\\specialgoodstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|solutionrelative:refactoringtests\\specialgoodstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|e:\\refactoringlabwork\\refactoring\\refactoringtests\\billtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|solutionrelative:refactoringtests\\billtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|e:\\refactoringlabwork\\refactoring\\refactoringtests\\salegoodstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|solutionrelative:refactoringtests\\salegoodstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\billbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\billbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|e:\\refactoringlabwork\\refactoring\\refactoringtests\\regulargoodstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|solutionrelative:refactoringtests\\regulargoodstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\billgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\billgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|e:\\refactoringlabwork\\refactoring\\refactoringtests\\billedgecasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|solutionrelative:refactoringtests\\billedgecasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\filesourcefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\filesourcefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|e:\\refactoringlabwork\\refactoring\\refactoringtests\\billbuildertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2DB17E-F7E0-4A71-A14B-83FD83732F5A}|RefactoringTests\\RefactoringTests.csproj|solutionrelative:refactoringtests\\billbuildertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\holidayspecialgoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\holidayspecialgoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\ifilesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\ifilesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\holidaysalegoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\holidaysalegoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\holidayregulargoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\holidayregulargoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\specialgoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\specialgoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\regulargoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\regulargoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\salegoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\salegoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\goodsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\goodsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|e:\\refactoringlabwork\\refactoring\\refactoring\\igoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5527B387-0169-4C22-8493-5FCFEB7F781B}|Refactoring\\Refactoring.csproj|solutionrelative:refactoring\\igoodsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +66,184 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JsonFileSource.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\JsonFileSource.cs",
-              "RelativeDocumentMoniker": "Refactoring\\JsonFileSource.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\JsonFileSource.cs",
-              "RelativeToolTip": "Refactoring\\JsonFileSource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "SpecialGoodsTests.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\SpecialGoodsTests.cs",
+              "RelativeDocumentMoniker": "RefactoringTests\\SpecialGoodsTests.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\SpecialGoodsTests.cs",
+              "RelativeToolTip": "RefactoringTests\\SpecialGoodsTests.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwE8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T11:21:29.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BillBuilder.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillBuilder.cs",
-              "RelativeDocumentMoniker": "Refactoring\\BillBuilder.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillBuilder.cs",
-              "RelativeToolTip": "Refactoring\\BillBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T11:20:43.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BillGenerator.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillGenerator.cs",
-              "RelativeDocumentMoniker": "Refactoring\\BillGenerator.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\BillGenerator.cs",
-              "RelativeToolTip": "Refactoring\\BillGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T11:20:40.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IFileSource.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\IFileSource.cs",
-              "RelativeDocumentMoniker": "Refactoring\\IFileSource.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\IFileSource.cs",
-              "RelativeToolTip": "Refactoring\\IFileSource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T11:09:42.74Z",
+              "WhenOpened": "2025-05-06T10:50:38.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BillTests.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\BillTests.cs",
-              "RelativeDocumentMoniker": "RefactoringTests\\BillTests.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\BillTests.cs",
-              "RelativeToolTip": "RefactoringTests\\BillTests.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAkwNgAAABJAAAAAAAAAA==",
+              "Title": "SaleGoodsTests.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\SaleGoodsTests.cs",
+              "RelativeDocumentMoniker": "RefactoringTests\\SaleGoodsTests.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\SaleGoodsTests.cs",
+              "RelativeToolTip": "RefactoringTests\\SaleGoodsTests.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAgwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T10:49:18.537Z",
+              "WhenOpened": "2025-05-06T10:50:19.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegularGoodsTests.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\RegularGoodsTests.cs",
+              "RelativeDocumentMoniker": "RefactoringTests\\RegularGoodsTests.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\RegularGoodsTests.cs",
+              "RelativeToolTip": "RefactoringTests\\RegularGoodsTests.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:50:04.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BillEdgeCaseTests.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\BillEdgeCaseTests.cs",
+              "RelativeDocumentMoniker": "RefactoringTests\\BillEdgeCaseTests.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\BillEdgeCaseTests.cs",
+              "RelativeToolTip": "RefactoringTests\\BillEdgeCaseTests.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:49:30.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FileSourceFactory.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\FileSourceFactory.cs",
-              "RelativeDocumentMoniker": "Refactoring\\FileSourceFactory.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\FileSourceFactory.cs",
-              "RelativeToolTip": "Refactoring\\FileSourceFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Title": "BillBuilderTests.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\BillBuilderTests.cs",
+              "RelativeDocumentMoniker": "RefactoringTests\\BillBuilderTests.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\BillBuilderTests.cs",
+              "RelativeToolTip": "RefactoringTests\\BillBuilderTests.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAkwIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T09:59:57.508Z",
+              "WhenOpened": "2025-05-06T10:48:25.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\Program.cs",
-              "RelativeDocumentMoniker": "Refactoring\\Program.cs",
-              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\Program.cs",
-              "RelativeToolTip": "Refactoring\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "HolidaySaleGoodsStrategy.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\HolidaySaleGoodsStrategy.cs",
+              "RelativeDocumentMoniker": "Refactoring\\HolidaySaleGoodsStrategy.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\HolidaySaleGoodsStrategy.cs",
+              "RelativeToolTip": "Refactoring\\HolidaySaleGoodsStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T09:41:53.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T10:46:48.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HolidayRegularGoodsStrategy.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\HolidayRegularGoodsStrategy.cs",
+              "RelativeDocumentMoniker": "Refactoring\\HolidayRegularGoodsStrategy.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\HolidayRegularGoodsStrategy.cs",
+              "RelativeToolTip": "Refactoring\\HolidayRegularGoodsStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:46:26.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SpecialGoodsStrategy.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\SpecialGoodsStrategy.cs",
+              "RelativeDocumentMoniker": "Refactoring\\SpecialGoodsStrategy.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\SpecialGoodsStrategy.cs",
+              "RelativeToolTip": "Refactoring\\SpecialGoodsStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:46:10.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HolidaySpecialGoodsStrategy.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\HolidaySpecialGoodsStrategy.cs",
+              "RelativeDocumentMoniker": "Refactoring\\HolidaySpecialGoodsStrategy.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\HolidaySpecialGoodsStrategy.cs",
+              "RelativeToolTip": "Refactoring\\HolidaySpecialGoodsStrategy.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:33:48.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegularGoodsStrategy.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\RegularGoodsStrategy.cs",
+              "RelativeDocumentMoniker": "Refactoring\\RegularGoodsStrategy.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\RegularGoodsStrategy.cs",
+              "RelativeToolTip": "Refactoring\\RegularGoodsStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:44:03.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SaleGoodsStrategy.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\SaleGoodsStrategy.cs",
+              "RelativeDocumentMoniker": "Refactoring\\SaleGoodsStrategy.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\SaleGoodsStrategy.cs",
+              "RelativeToolTip": "Refactoring\\SaleGoodsStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:44:18.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GoodsFactory.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\GoodsFactory.cs",
+              "RelativeDocumentMoniker": "Refactoring\\GoodsFactory.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\GoodsFactory.cs",
+              "RelativeToolTip": "Refactoring\\GoodsFactory.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:43:36.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Goods.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\Goods.cs",
+              "RelativeDocumentMoniker": "Refactoring\\Goods.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\Goods.cs",
+              "RelativeToolTip": "Refactoring\\Goods.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:43:14.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGoodsStrategy.cs",
+              "DocumentMoniker": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\IGoodsStrategy.cs",
+              "RelativeDocumentMoniker": "Refactoring\\IGoodsStrategy.cs",
+              "ToolTip": "E:\\RefactoringLabWork\\Refactoring\\Refactoring\\IGoodsStrategy.cs",
+              "RelativeToolTip": "Refactoring\\IGoodsStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:42:33.791Z"
             }
           ]
         }
