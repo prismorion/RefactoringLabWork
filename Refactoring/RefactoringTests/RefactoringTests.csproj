@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Refactoring\Refactoring.csproj" />
+    <ProjectReference Include="..\ChillBill\ChillBill.csproj" />
   </ItemGroup>
 
 </Project>

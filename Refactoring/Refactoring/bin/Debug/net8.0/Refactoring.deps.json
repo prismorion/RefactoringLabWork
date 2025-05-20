@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Refactoring/1.0.0": {
+        "dependencies": {
+          "ChillBill": "1.0.0"
+        },
         "runtime": {
           "Refactoring.dll": {}
+        }
+      },
+      "ChillBill/1.0.0": {
+        "runtime": {
+          "ChillBill.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "Refactoring/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChillBill/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

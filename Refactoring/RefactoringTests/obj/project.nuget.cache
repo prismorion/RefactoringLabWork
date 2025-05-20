@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+NczsrkkUF8=",
+  "dgSpecHash": "RnWTCCk1HTI=",
   "success": true,
   "projectFilePath": "E:\\RefactoringLabWork\\Refactoring\\RefactoringTests\\RefactoringTests.csproj",
   "expectedPackageFiles": [
@@ -20,5 +20,12 @@
     "C:\\Users\\olegp\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\olegp\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

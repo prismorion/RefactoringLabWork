@@ -1,4 +1,6 @@
-﻿namespace Refactoring
+﻿using ChillBill;
+
+namespace Refactoring
 {
     class Program
     {
@@ -13,7 +15,7 @@
             StreamReader streamReader = new StreamReader(fs);
             BillBuilder builder = new BillBuilder();
 
-            BillGenerator bill = builder.CreateBill(streamReader, fileType, new TxtViewTest());
+            BillGenerator bill = builder.CreateBill(streamReader, fileType, new TxtView());
             string billTxt = bill.GenerateBill();
             Console.WriteLine(billTxt);
         }

@@ -1,0 +1,12 @@
+E:\RefactoringLabWork\Refactoring\ChillBill\bin\Debug\net8.0\ChillBill.deps.json
+E:\RefactoringLabWork\Refactoring\ChillBill\bin\Debug\net8.0\ChillBill.dll
+E:\RefactoringLabWork\Refactoring\ChillBill\bin\Debug\net8.0\ChillBill.pdb
+E:\RefactoringLabWork\Refactoring\ChillBill\obj\Debug\net8.0\ChillBill.GeneratedMSBuildEditorConfig.editorconfig
+E:\RefactoringLabWork\Refactoring\ChillBill\obj\Debug\net8.0\ChillBill.AssemblyInfoInputs.cache
+E:\RefactoringLabWork\Refactoring\ChillBill\obj\Debug\net8.0\ChillBill.AssemblyInfo.cs
+E:\RefactoringLabWork\Refactoring\ChillBill\obj\Debug\net8.0\ChillBill.csproj.CoreCompileInputs.cache
+E:\RefactoringLabWork\Refactoring\ChillBill\obj\Debug\net8.0\ChillBill.sourcelink.json
+E:\RefactoringLabWork\Refactoring\ChillBill\obj\Debug\net8.0\ChillBill.dll
+E:\RefactoringLabWork\Refactoring\ChillBill\obj\Debug\net8.0\refint\ChillBill.dll
+E:\RefactoringLabWork\Refactoring\ChillBill\obj\Debug\net8.0\ChillBill.pdb
+E:\RefactoringLabWork\Refactoring\ChillBill\obj\Debug\net8.0\ref\ChillBill.dll

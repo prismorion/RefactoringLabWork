@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "ChillBill/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ChillBill.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChillBill.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChillBill/1.0.0": {
+      "type": "project",
+      "path": "../ChillBill/ChillBill.csproj",
+      "msbuildProject": "../ChillBill/ChillBill.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "ChillBill >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\olegp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\RefactoringLabWork\\Refactoring\\BillApp\\BillApp.csproj",
+      "projectName": "BillApp",
+      "projectPath": "E:\\RefactoringLabWork\\Refactoring\\BillApp\\BillApp.csproj",
+      "packagesPath": "C:\\Users\\olegp\\.nuget\\packages\\",
+      "outputPath": "E:\\RefactoringLabWork\\Refactoring\\BillApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\olegp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "E:\\RefactoringLabWork\\Refactoring\\ChillBill\\ChillBill.csproj": {
+              "projectPath": "E:\\RefactoringLabWork\\Refactoring\\ChillBill\\ChillBill.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using Refactoring;
+using ChillBill;
 
 namespace RefactoringTests
 {
@@ -17,7 +17,7 @@ namespace RefactoringTests
             bill.addGoods(new Item(new Goods("Special Item", new SpecialGoodsStrategy()), 10, 50));
             string GenerateBill = bill.GenerateBill();
 
-            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t10\t500\t0\t400\t0\nСумма счета составляет 400\nВы заработали 0 бонусных балов"));
+            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-во\tСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t10\t500\t\t0\t400\t0\nСумма счета составляет 400\nВы заработали 0 бонусных балов"));
         }
 
         [Test]
@@ -31,7 +31,7 @@ namespace RefactoringTests
             bill.addGoods(new Item(new Goods("Special Item", new SpecialGoodsStrategy()), 11, 50));
             string GenerateBill = bill.GenerateBill();
 
-            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t11\t550\t2,75\t447,25\t0\nСумма счета составляет 447,25\nВы заработали 0 бонусных балов"));
+            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-во\tСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t11\t550\t\t2,75\t447,25\t0\nСумма счета составляет 447,25\nВы заработали 0 бонусных балов"));
         }
 
         [Test]
@@ -45,7 +45,7 @@ namespace RefactoringTests
             bill.addGoods(new Item(new Goods("Special Item", new HolidaySpecialGoodsStrategy()), 10, 30));
             string GenerateBill = bill.GenerateBill();
 
-            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t30\t10\t300\t0\t200\t0\nСумма счета составляет 200\nВы заработали 0 бонусных балов"));
+            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-во\tСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t30\t10\t300\t\t0\t200\t0\nСумма счета составляет 200\nВы заработали 0 бонусных балов"));
         }
 
         [Test]
@@ -59,7 +59,7 @@ namespace RefactoringTests
             bill.addGoods(new Item(new Goods("Special Item", new HolidaySpecialGoodsStrategy()), 11, 50));
             string GenerateBill = bill.GenerateBill();
 
-            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t11\t550\t2,75\t447,25\t0\nСумма счета составляет 447,25\nВы заработали 0 бонусных балов"));
+            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-во\tСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t11\t550\t\t2,75\t447,25\t0\nСумма счета составляет 447,25\nВы заработали 0 бонусных балов"));
         }
 
         [Test]
@@ -73,7 +73,7 @@ namespace RefactoringTests
             bill.addGoods(new Item(new Goods("Special Item", new HolidaySpecialGoodsStrategy()), 3, 1001));
             string GenerateBill = bill.GenerateBill();
 
-            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t1001\t3\t3003\t150,15\t2752,85\t0\nСумма счета составляет 2752,85\nВы заработали 0 бонусных балов"));
+            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-во\tСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t1001\t3\t3003\t\t150,15\t2752,85\t0\nСумма счета составляет 2752,85\nВы заработали 0 бонусных балов"));
         }
 
         [Test]
@@ -87,7 +87,7 @@ namespace RefactoringTests
             bill.addGoods(new Item(new Goods("Special Item", new SpecialGoodsStrategy()), 2, 50));
             string GenerateBill = bill.GenerateBill();
 
-            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t2\t100\t0\t0\t0\nСумма счета составляет 0\nВы заработали 0 бонусных балов"));
+            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-во\tСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t2\t100\t\t0\t0\t0\nСумма счета составляет 0\nВы заработали 0 бонусных балов"));
         }
     }
 }

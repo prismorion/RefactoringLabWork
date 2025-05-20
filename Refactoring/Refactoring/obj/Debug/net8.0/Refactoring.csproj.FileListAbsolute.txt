@@ -27,3 +27,7 @@ E:\RefactoringLabWork\Refactoring\Refactoring\obj\Debug\net8.0\refint\Refactorin
 E:\RefactoringLabWork\Refactoring\Refactoring\obj\Debug\net8.0\Refactoring.pdb
 E:\RefactoringLabWork\Refactoring\Refactoring\obj\Debug\net8.0\Refactoring.genruntimeconfig.cache
 E:\RefactoringLabWork\Refactoring\Refactoring\obj\Debug\net8.0\ref\Refactoring.dll
+E:\RefactoringLabWork\Refactoring\Refactoring\obj\Debug\net8.0\Refactoring.csproj.AssemblyReference.cache
+E:\RefactoringLabWork\Refactoring\Refactoring\bin\Debug\net8.0\ChillBill.dll
+E:\RefactoringLabWork\Refactoring\Refactoring\bin\Debug\net8.0\ChillBill.pdb
+E:\RefactoringLabWork\Refactoring\Refactoring\obj\Debug\net8.0\Refactor.292BEB7D.Up2Date

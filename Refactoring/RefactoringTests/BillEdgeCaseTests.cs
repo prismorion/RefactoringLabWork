@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using Refactoring;
+using ChillBill;
 
 namespace RefactoringTests
 {
@@ -16,7 +16,7 @@ namespace RefactoringTests
 
             string GenerateBill = bill.GenerateBill();
 
-            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\nСумма счета составляет 0\nВы заработали 0 бонусных балов"));
+            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-во\tСтоимость\tСкидка\tСумма\tБонус\nСумма счета составляет 0\nВы заработали 0 бонусных балов"));
         }
 
         [Test]
@@ -32,7 +32,7 @@ namespace RefactoringTests
             bill.addGoods(new Item(new Goods("Sale Item", new SaleGoodsStrategy()), 4, 30));
             string GenerateBill = bill.GenerateBill();
 
-            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tRegular Item\t\t100\t6\t600\t18\t482\t30\n\tSpecial Item\t\t50\t2\t100\t0\t100\t0\n\tSale Item\t\t30\t4\t120\t1,2\t118,8\t1\nСумма счета составляет 700,8\nВы заработали 31 бонусных балов"));
+            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-во\tСтоимость\tСкидка\tСумма\tБонус\n\tRegular Item\t\t100\t6\t600\t\t18\t482\t30\n\tSpecial Item\t\t50\t2\t100\t\t0\t100\t0\n\tSale Item\t\t30\t4\t120\t\t1,2\t118,8\t1\nСумма счета составляет 700,8\nВы заработали 31 бонусных балов"));
         }
 
         [Test]
@@ -46,7 +46,7 @@ namespace RefactoringTests
             bill.addGoods(new Item(new Goods("Special Item", new SpecialGoodsStrategy()), 2, 50));
             string GenerateBill = bill.GenerateBill();
 
-            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-воСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t2\t100\t0\t100\t0\nСумма счета составляет 100\nВы заработали 0 бонусных балов"));
+            Assert.That(GenerateBill, Is.EqualTo("Счет для Test Customer\n\tНазвание\tЦена\tКол-во\tСтоимость\tСкидка\tСумма\tБонус\n\tSpecial Item\t\t50\t2\t100\t\t0\t100\t0\nСумма счета составляет 100\nВы заработали 0 бонусных балов"));
         }
     }
 }
